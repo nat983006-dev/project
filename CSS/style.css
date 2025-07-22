@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body {
+    display: inline;
+    background-color: rgb(35, 103, 163);
+  
+}
+
+
+        header {
+    background-color: darkolivegreen;
+    text-align: 0;
+    align-items: center;
+    margin-right: 40;
+    padding: 20px;
+    cursor: pointer;
+    transition: background_color 0.3s, transform 0.1s;
+    margin-bottom: 0;
+
+
+}
+
+
+
+.container-fluit a {
+    text-decoration: none;
+    color: rgb(243, 245, 243);
+    margin-right: 15px;
+    /* Set background color to a green shade */
+}
+
+
+.container-fluit :hover {
+    color: red;
+
+}
+
+.hero{
+    position: relative;
+
+    & img{
+        width: 100%;
+        height: 100vh;
+    }
+
+    & .content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.title{
+    color: rgb(217, 255, 0);
+    font-family: "Koulen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sub-title{
+    color:  rgb(217, 255, 0); 
+    font-family: "Koulen", sans-serif;
+  font-weight: 400;
+  font-style: normal;  
+}

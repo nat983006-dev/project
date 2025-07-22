@@ -1,0 +1,25 @@
+body{
+    background-color: #D9E8D6;
+}
+h1{
+    text-align: center;
+    margin-top:2%;
+}
+
+img{
+    transition: .5s ease;
+}
+
+
+img:hover{
+    transform: translateY(-10px);
+}
+
+.form-control{
+    &:hover{
+      background-color: rgb(225, 213, 237);
+      color: #f706bf;
+      
+    }
+
+}

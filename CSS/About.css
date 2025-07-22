@@ -1,0 +1,67 @@
+
+
+*{
+    background-color: #D9E6D6;
+}
+h1{
+    background-color:  #3369f0  ;
+    color: white;
+    text-align: center;
+    margin-top: -30px;
+    padding: 20px;
+   
+    
+}
+.container-fluit img {
+width: 100%;
+height: 100%;
+}
+.container-fluit .btn {
+   
+    background-color: #71390b;
+    color: white;
+
+}
+.container-fluit .content {
+    background-color: #3369f0;
+}
+p{
+  
+    background-color: #3369f0;
+}
+.container-fluit .only {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    width: 400px;
+    
+    margin-left: 515px;
+}
+.only img {
+    
+    width: 615px;
+    height: auto;
+   
+}
+.content{
+    width: 615px;
+}
+.btn{
+   &:hover{
+    background-color: rgb(253, 249, 11);
+    color: black;
+   } 
+}
+.container-fluit .content a {
+    text-decoration: none;
+    background-color: none;
+}
+
+.form-control{
+    &:hover{
+      background-color: rgb(225, 213, 237);
+      color: #f706bf;
+      
+    }
+}
